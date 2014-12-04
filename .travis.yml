@@ -4,6 +4,6 @@ python:
 - "2.7"
 - "2.6"
 # command to install dependencies, e.g. pip install -r requirements.txt
-install: <dependencias_a_instalar>
+install: pip install -r requirements.txt
 # command to run tests, e.g. python setup.py test
-script: <comando_de_pruebas_software_a_ejecutar>
+script: test_departamento.py

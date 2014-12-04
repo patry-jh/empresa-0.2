@@ -1,0 +1,5 @@
+pytest pytest-cov
+coveralls
+radon
+pep8
+mockito
